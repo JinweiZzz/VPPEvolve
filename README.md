@@ -59,17 +59,7 @@ pip install pandas numpy PyYAML openai
    - This loads `config_joint_raw.yaml`, uses the seed program `program_seed_joint_raw.py` and evaluator `evaluator_joint_raw.py`, and writes outputs (best program, checkpoints, program summaries) under `openevolve_output/run_<timestamp>/`.
 
 6. **Evaluation**
-   - The script evaluates the best program on predicted scenarios during evolution and then on real scenarios via `evaluate_real(best_program_path)`. Results and paths are printed in the terminal. The evaluation uses the combined score (higher is better):
-
-$$
-\text{combined\_score}
-= \lambda_{\text{rev}} \cdot \text{revenue}
-- \lambda_{\text{dev}} \cdot \text{deviation}
-- \lambda_{\text{deg}} \cdot \text{degradation}
-- \lambda_{\text{risk}} \cdot \text{risk}
-$$
-
-with the $\lambda$ coefficients set in `config_joint_raw.yaml`.
+   - The script evaluates the best program on predicted scenarios during evolution and then on real scenarios via `evaluate_real(best_program_path)`. Results and paths are printed in the terminal. 
 
 ---
 
