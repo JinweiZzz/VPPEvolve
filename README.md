@@ -67,7 +67,7 @@ pip install pandas numpy PyYAML openai
 
 We deployed VPPEvolve on **TsingRoc.ai**’s virtual power plant platform. The following video shows a comparison of the grid state before and after deployment:
 
-**[video/beijing_deployment.mp4](video/beijing_deployment.mp4)**
+https://github.com/user-attachments/assets/f2f7d023-d823-4000-8948-9793e335624a
 
 - **Upper panel:** Baseline operational state, where VPP devices are sparsely coordinated.
 - **Lower panel:** Scenario after deploying VPPEvolve.
