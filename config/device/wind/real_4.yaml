@@ -1,0 +1,5 @@
+
+wind:
+  cost_price: 0.01
+  id: 7
+  scale_per_hour: 5

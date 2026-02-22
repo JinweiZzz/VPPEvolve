@@ -1,0 +1,8 @@
+vehicle:
+  capacity: 118.8414497715533
+  capacity_demand: 93.167339885574
+  charge_effi: 0.8733763755561766
+  discharge_effi: 0.6584452870299089
+  max_power: 32.07459503721117
+  t_arr: 13.472272194217584
+  t_dep: 7.20859683323

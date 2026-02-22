@@ -1,0 +1,11 @@
+perfect_type: 2
+train_type: nonperfect
+price_type : pred
+pv_type: vpplib
+wind_type: vpplib
+pv_id: [0,1,2,3,4,5]
+wind_id: [0,1,2,3]
+storage_id: [0,1,2,3]
+vehicle_id: [0,1,2,3,4,5,6,7]
+wash_id: [0,1,2,3,4,5,6,7,8,9]
+AC_id: [0,1,2,3,4,5,6,7]
